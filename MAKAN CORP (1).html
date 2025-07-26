@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Makan Corp – Book a Service</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2d045c6df.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: fontawesome, sans-serif;
+      margin: 0;
+      background: #e7f9ff;
+      color: #111;
+    }
+
+    header {
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #fff;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h2 {
+      border-left: 5px solid #0072ff;
+      padding-left: 1rem;
+      color: #0072ff;
+      margin-top: 3rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 12px rgba(0, 114, 255, 0.2);
+    }
+
+    th, td {
+      padding: 1rem;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+    }
+
+    th {
+      background-color: #0072ff;
+      color: #fff;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0, 114, 255, 0.15);
+      margin-top: 2rem;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.7rem 0;
+      border: 1px solid #0072ff;
+      border-radius: 5px;
+      background: #f9f9f9;
+      color: #111;
+    }
+
+    button {
+      background-color: #0072ff;
+      color: #fff;
+      font-weight: bold;
+      padding: 1rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+
+    button:hover {
+      background-color: #005fcc;
+    }
+
+    .contact-icons {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .contact-icons a {
+      text-decoration: none;
+      font-size: 1rem;
+      color: #0072ff;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.8rem 1rem;
+      border: 2px solid #0072ff;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      background: #fff;
+    }
+
+    .contact-icons a:hover {
+      background-color: #0072ff;
+      color: #fff;
+    }
+
+    .contact-icons i {
+      font-size: 1.5rem;
+    }
+
+    footer {
+      background-color: #0072ff;
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 4rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Makan Corp (Pty)Ltd</h1>
+    <p>Outsourcing. Compliance. Growth.</p>
+  </header>
+
+  <div class="container">
+    <h2>Our Services</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>Description</th>
+          <th>Price (ZAR)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Business Compliance</td>
+          <td>Company registration, tax number, B-BBEE</td>
+          <td>R1,200</td>
+        </tr>
+        <tr>
+          <td>Financial Management</td>
+          <td>Bookkeeping & Accounting</td>
+          <td>From R2,500/month</td>
+        </tr>
+        <tr>
+          <td>Operations Support</td>
+          <td>Admin outsourcing and project support</td>
+          <td>R850/day</td>
+        </tr>
+        <tr>
+          <td>Entrepreneur Consulting</td>
+          <td>1-on-1 business strategy sessions</td>
+          <td>R600/hour</td>
+             <tr><td>Business Compliance</td><td>Company registration, tax number, B-BBEE</td><td>R1,200</td></tr>
+        <tr><td>Financial Management</td><td>Bookkeeping & Accounting</td><td>From R2,500/month</td></tr>
+        <tr><td>Operations Support</td><td>Admin outsourcing and project support</td><td>R850/day</td></tr>
+        <tr><td>Entrepreneur Consulting</td><td>1-on-1 business strategy sessions</td><td>R600/hour</td></tr>
+        <tr><td>Business Plan Review & Enhancement</td><td>Detailed analysis of your business plan</td><td>R1,500 (90 min)</td></tr>
+        <tr><td>Business Compliance Consultation</td><td>Meet all legal and financial requirements</td><td>R2,000 (1 hour)</td></tr>
+        <tr><td>Startup Strategy Session</td><td>Launch or restructure your business</td><td>R2,500 (2 hours)</td></tr>
+        <tr><td>Financial & Pricing Strategy</td><td>Expert financial guidance</td><td>-</td></tr>
+        <tr><td>Entrepreneurial Financial Management</td><td>Track expenses, optimize cash flow</td><td>R2,000 (1.5 hours)</td></tr>
+        <tr><td>Costing & Pricing Strategy Session</td><td>Set the right prices</td><td>R2,500 (2 hours)</td></tr>
+        <tr><td>Marketing Strategy for a New Venture</td><td>Attract your ideal customers</td><td>R2,500 (2 hours)</td></tr>
+        <tr><td>Sales & Customer Acquisition Training</td><td>Increase sales and grow your base</td><td>R3,000 (2.5 hours)</td></tr>
+        <tr><td>Pitch Deck & Business Proposal Writing</td><td>Secure funding or partnerships</td><td>R3,500</td></tr>
+        <tr><td>Investor Pitch Coaching</td><td>Practice for confident presentations</td><td>R3,000 (2 hours)</td></tr>
+        <tr><td>Entrepreneur Coaching (Single Session)</td><td>Personalized coaching</td><td>R1,500 (1 hour)</td></tr>
+        <tr><td>Entrepreneur Coaching Package</td><td>5-hour comprehensive mentorship</td><td>R5,000</td></tr>
+        <tr><td>Custom Packages</td><td>Tailored business solutions</td><td>On Request</td></tr>
+        </tr>
+      </tbody>
+    </table>
+
+</div>
+
+<form action="mailto:makanyanes@gmail.com" method="post" enctype="text/plain">
+  <h2>Request a Quote</h2>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="surname">Surname:</label>
+  <input type="text" id="surname" name="surname" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="service">Select a Service:</label>
+  <select id="service" name="service" required>
+    <option value="">-- Please select --</option>
+    <option>Business Plan Review & Enhancement — R1,500 (90 min)</option>
+    <option>Business Compliance Consultation — R2,000 (1 hour)</option>
+    <option>Startup Strategy Session — R2,500 (2 hours)</option>
+    <option>Entrepreneurial Financial Management & Bookkeeping Consultation — R2,000 (1.5 hours)</option>
+    <option>Costing & Pricing Strategy Session — R2,500 (2 hours)</option>
+    <option>Marketing Strategy for a New Venture — R2,500 (2 hours)</option>
+    <option>Sales & Customer Acquisition Training — R3,000 (2.5 hours)</option>
+    <option>Pitch Deck & Business Proposal Writing — R3,500</option>
+    <option>Investor Pitch Coaching — R3,000 (2 hours)</option>
+    <option>Entrepreneur Coaching (Single Session) — R1,500 (1 hour)</option>
+    <option>Entrepreneur Coaching Package — R5,000 (5-hour package)</option>
+    <option>Custom Packages Available</option>
+  </select>
+
+  </div>
+</body>
+</html>
+      </select>
+
+      <label for="message">Additional Notes</label>
+      <textarea id="message" name="Message" rows="4" placeholder="Add any extra information..."></textarea>
+
+      <button type="submit">Submit Booking</button>
+    </form>
+    <div class="contact-icons">
+      <a href="tel:+27602537966"><i class="fas fa-phone-alt"></i> Call Us</a>
+      <a href="https://wa.me/27602537966" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a href="mailto:makanyanes@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>📍 Mpumalanga, South Africa | 📞 060 253 7966 | ✉ makanyanes@gmail.com</p>
+    <p>&copy; 2025 Makan Corp Pty Ltd. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
